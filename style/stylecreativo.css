@@ -43,7 +43,8 @@ a {
   display: inline-block;
   text-align: center;
   margin-top: 20px;
-  border: 1px solid rgb(77, 77, 77);
+  border: 2px solid rgb(77, 77, 77);
+  box-shadow: #dddddd 2px 2px 4px;
 }
 
 a:hover {
@@ -146,6 +147,7 @@ footer {
 
 .listaAlfabetica {
   list-style-type: lower-alpha;
+  margin-left: 15px;
 }
 
 dt {
@@ -153,12 +155,16 @@ dt {
   color: gold;
 }
 
+.list2 {
+  margin-bottom: 0%;
+}
+
 ol,
 ul,
 dl,
 li,
 dt {
-  margin-bottom: 30px; /* Espacio entre listas )*/
+  margin-bottom: 25px; /* Espacio entre listas )*/
 }
 
 .fila1 {
